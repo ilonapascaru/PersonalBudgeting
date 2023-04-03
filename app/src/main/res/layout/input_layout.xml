@@ -12,26 +12,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Select a budget Item"
-            android:gravity="center"
-            android:textColor="#000"
-            android:id="@+id/item"
-            android:textSize="18sp"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <Spinner
-                android:padding="10dp"
                 android:id="@+id/itemsspinner"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
                 android:gravity="center"
-                android:layout_gravity="center"/>
+                android:padding="10dp" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -111,7 +104,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
-                    android:layout_marginTop="2dp"
                     android:layout_marginEnd="2dp"
                     android:layout_marginBottom="2dp"
                     android:background="@drawable/buttons"
@@ -119,7 +111,7 @@
                     android:textAllCaps="false"
                     android:textColor="@color/white"
                     android:textStyle="bold"
-                    app:backgroundTint="#F2970F" />
+                    app:backgroundTint="#70A18D" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -140,7 +132,7 @@
                     android:textAllCaps="false"
                     android:textColor="@color/white"
                     android:textStyle="bold"
-                    app:backgroundTint="#F2970F" />
+                    app:backgroundTint="#70A18D" />
             </RelativeLayout>
         </LinearLayout>
     </LinearLayout>

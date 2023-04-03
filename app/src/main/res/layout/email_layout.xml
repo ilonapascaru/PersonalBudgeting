@@ -11,27 +11,30 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <EditText
             android:id="@+id/toEmail"
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
             android:hint="Email"
-            android:inputType="textEmailAddress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:inputType="textEmailAddress" />
+
         <EditText
             android:id="@+id/subject"
-            android:inputType="textEmailSubject"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
             android:hint="Subject"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:inputType="textEmailSubject" />
+
         <Button
             android:id="@+id/sendBtn"
-            android:layout_gravity="center_horizontal"
-            android:text="Send"
-            android:background="@drawable/buttons"
-            app:backgroundTint="@null"
-            android:textColor="@color/black"
-            android:textAllCaps="false"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttons"
+            android:text="Send"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:backgroundTint="@null" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>
