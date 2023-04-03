@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "804032559225",
+    "firebase_url": "https://buget-c42f1-default-rtdb.firebaseio.com",
+    "project_id": "buget-c42f1",
+    "storage_bucket": "buget-c42f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804032559225:android:268a0e91e3c5ec8afd3ca8",
+        "android_client_info": {
+          "package_name": "com.example.personalbudgeting1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804032559225-itviettcnp0gvu9i8r69u15t4682v9io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwfLa6gEIzTU-8F-cgUMnzlrbNNdul1_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804032559225-itviettcnp0gvu9i8r69u15t4682v9io.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

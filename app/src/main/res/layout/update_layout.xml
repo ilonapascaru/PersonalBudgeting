@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="update this item?"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:padding="10dp"
+        android:id="@+id/itemsspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter amount..."
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        android:id="@+id/amount"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter note..."
+        android:textColorHint="@color/black"
+        android:inputType="textCapSentences"
+        android:id="@+id/note"
+        android:textColor="@color/black"/>
+    <CheckBox
+        android:layout_margin="10dp"
+        android:id="@+id/monthlyCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Is monthly"/>
+    <EditText
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number month"
+        android:id="@+id/numberMonth"
+        android:textColor="#000"
+        android:textColorHint="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:background="@drawable/buttons"
+                app:backgroundTint="@color/black"
+                android:textAllCaps="false"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:layout_margin="2dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttons"
+                app:backgroundTint="@color/orange"
+                android:text="Update"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_margin="2dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
